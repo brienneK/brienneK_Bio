@@ -1,14 +1,42 @@
-<html>
-    <head>
-        <title> Brienne's Portfolio </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-        <link rel="stylesheet" href="./styles.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    </head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Brienne Kordis</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
     
-    <body>
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
@@ -28,22 +56,63 @@
     </div>
   </nav>
 </header>
-             
-        <img src="profile2021.jpeg" 
-            width=364px
-            height=339px />
-        <h2> Biography </h2>
-        <p> Brienne is a human rights activist turned coder. After getting her MA in International Peace and Conflict Resolution from American Univeristy
-            and working in the nonprofit world for 5 years, she wanted to add some techincal skills to her resume and so turned to tech itself. 
-            As a student in MITxPro's Full Stack Development Course, Brienne has been learning how to use JavaScript, CSS, and HTML to dynamically code for an interactive web experience.
-            After completing this course, Brienne intends to bring her new devleopment skills back to the realm of human rights to support nonprofits' initatives online. </p>
-       
-        <a href="https://github.com/briennekordis" target="_blank"><img src="./github.png" alt="GitHub logo" height="80" width="80" /></a> 
-        <a href="https://www.linkedin.com/in/brienne-kordis-4037a7b5/" target="_blank"><img src="./linkedin.png" alt="LinkedIn logo" height="80" width="80" /></a> 
-        <a href="mailto:blkordis@gmail.com" target="_blank"><img src="./email.jpeg" alt="Gmail logo" height="80" width="80" /></a>
 
-                 
-     </body>
-  
+<main>
+
+  <div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Brienne Kordis </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <a href="https://github.com/briennekordis"><img src="./images/github.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Pacman" preserveAspectRatio="xMidYMid slice" focusable="false"></img></a>
+        <h2>GitHub</h2>
+        <p><a class="btn btn-secondary" href="https://github.com/briennekordis" target="_blank">View repository &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        <a href="https://www.linkedin.com/in/brienne-kordis-4037a7b5/"><img src="./images/.linkedin.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="GitHub logo" preserveAspectRatio="xMidYMid slice" focusable="false"></img></a>
+        <h2>LinkedIn</h2>
+        <p><a class="btn btn-secondary" href="https://github.com/briennekordis/eyeMovement" target="_blank">View repository &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+        <a href="mailto:blkordis@gmail.com"><img src="./images/email.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Map" preserveAspectRatio="xMidYMid slice" focusable="false"></img></a>
+        <h2>Email</h2>
+        <p><a class="btn btn-secondary" href="https://github.com/briennekordis/busTracker" target="_blank">View repository &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+  </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
     
+  </body>
+</html>
 </html>
