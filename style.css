@@ -1,13 +1,15 @@
 
 #profile {
     position: relative;
-    margin: 5px;
+    margin: 20px;
+    padding: 20px;
     float: left;
 }
 
 #interview {
     position: relative;
-    left: 600px;
-    margin: 5px;
+    
+    margin: 20px;
+    padding: 20px;
 }
 
