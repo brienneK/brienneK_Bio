@@ -17,10 +17,10 @@
 }
 
 #itcrowd {
-    font-size: 0.75em;
+    font-size: 0.75em !important;
 }
 
 a {
-  color: seaGreen;
+  color: seaGreen !important;
 }
 
