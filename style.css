@@ -4,15 +4,15 @@
     margin: 50px;
     padding: 20px;
     float: left;
-    height: 350px;
-    width: 350px;
+    height: 340px;
+    width: 340px;
 }
 
 #interview {
     position: relative;
     display: block;
     margin-left: auto;
-    margin-right: aut0;
+    margin-right: auto;
     padding: 20px;
 }
 
