@@ -17,10 +17,11 @@
 }
 
 #itcrowd {
-    font-size: 0.75em !important;
+    font-size: 1em !important;
+    text-align: center;
 }
 
 a {
-  color: seaGreen !important;
+  color: mediumSeaGreen !important;
 }
 
