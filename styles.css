@@ -1,17 +1,14 @@
 
-td, th {
-    border-width:1px;
-    border-style:dotted;
-    padding:5px;
-    margin:100px;
-}
-
 body {
     margin-left: 20px;
 }
 
-.breadcrumb-item a {
-color:grey;
+#profile {
+    position: relative;
 }
 
+#interview {
+    position: relative;
+    left: "600px";
+}
 
