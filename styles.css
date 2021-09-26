@@ -5,10 +5,12 @@ body {
 
 #profile {
     position: relative;
+    margin: "5px";
 }
 
 #interview {
     position: relative;
     left: "600px";
+    margin: "5px";
 }
 
