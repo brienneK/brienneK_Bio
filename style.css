@@ -1,11 +1,8 @@
 
-body {
-    margin-left: 20px;
-}
-
 #profile {
     position: relative;
     margin: 5px;
+    float: left;
 }
 
 #interview {
