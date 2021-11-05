@@ -40,7 +40,9 @@
     color: white;
     background-color: #808080       
 }
-
+#resume > h1 {
+   color: #212529;
+} 
 #resume > h4 {
     color: #212529;
 }
