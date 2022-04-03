@@ -116,6 +116,10 @@ ul {
     clear: both;
 }
 
+li span {
+    font-weight: bold;
+}
+
 /*Other*/
 
 @media print {
