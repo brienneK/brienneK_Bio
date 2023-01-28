@@ -4,3 +4,8 @@
   width: 400px;
   padding: 20px;
 }
+
+.bd-placeholder-img .rounded-circle .logo {
+  width: 100px;
+  height: 100px;
+}
