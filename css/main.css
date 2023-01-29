@@ -67,12 +67,15 @@ p {
 ul {
     margin-top: 0;
     padding-left: 15px;
-    columns: 2;
 }
 
-    ul li {
-        line-height: 1.5em;
-    }
+ul li {
+    line-height: 1.5em;
+}
+
+.sideSection ul {
+   columns: 2;
+}
 
 /*Classes*/
 
@@ -115,6 +118,7 @@ ul {
 
 .two-column-list {
     width: 640px;
+    columns: 2;
 }
 
     .two-column-list li {
