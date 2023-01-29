@@ -67,6 +67,7 @@ p {
 ul {
     margin-top: 0;
     padding-left: 15px;
+    columns: 2;
 }
 
     ul li {
@@ -83,7 +84,7 @@ ul {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #cfc;
+    background-color: #c3becd;
     overflow-x: hidden;
     padding: 20px;
 }
