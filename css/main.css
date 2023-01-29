@@ -80,7 +80,7 @@ ul {
     height: 100%;
     width: 280px;
     position: fixed;
-    text-align: right;
+    text-align: left;
     z-index: 1;
     top: 0;
     left: 0;
@@ -91,6 +91,10 @@ ul {
 
 .sideSection {
     margin-top: 20px;
+}
+
+.bi .bi-linkedin {
+    padding: 5px;
 }
 
 .main {
