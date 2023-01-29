@@ -2,7 +2,8 @@
   border-radius: 50%;
   float: left;
   width: 400px;
-  padding: 20px;
+  padding: 10px;
+  padding-right: 50px;
 }
 
 .bd-placeholder-img .rounded-circle .logo {
